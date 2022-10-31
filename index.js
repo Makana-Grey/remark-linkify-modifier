@@ -82,7 +82,7 @@ function splitTextNode(textNode, options) {
 /**
  * @param {Options} options
  */
-function remarkLinkify(options) {
+function remarkLinkifyModifier(options) {
   const opt = options?.regex ? options : { regex: options };
 
   return () => (ast) => {
@@ -109,4 +109,4 @@ function remarkLinkify(options) {
   };
 }
 
-module.exports = remarkLinkify;
+module.exports = remarkLinkifyModifier;

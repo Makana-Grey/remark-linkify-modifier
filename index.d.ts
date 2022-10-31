@@ -1,7 +1,7 @@
 /**
  * Find text that match regular expression and transform it to md link with modifirers
  */
-export default function remarkLinkify(options: Options | RegExp): any;
+export default function remarkLinkifyModifier(options: Options | RegExp): any;
 
 export type Options = {
   /** RegExp pattern */
