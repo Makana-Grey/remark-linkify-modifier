@@ -69,6 +69,10 @@ Functions that modify matches text for link or text as you define
 
 This package is have declaration file for [typescript].
 
+## License
+
+[MIT][license]
+
 <!-- Definitions -->
 
 [npm]: https://docs.npmjs.com/cli/install
@@ -77,3 +81,4 @@ This package is have declaration file for [typescript].
 [unified]: https://github.com/unifiedjs/unified
 [remark]: https://github.com/remarkjs/remark
 [remark-linkify-regex]: https://gitlab.com/staltz/remark-linkify-regex
+[license]: LICENSE
