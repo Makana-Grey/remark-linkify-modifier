@@ -1,0 +1,32 @@
+{
+  "name": "remark-linkify-modifier",
+  "version": "0.0.1",
+  "description": "This package is a unified remark plugin to transform text to a link by regular expression with modifying",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Makana-Grey/remark-linkify-modifier.git"
+  },
+  "keywords": [
+    "unified",
+    "remark",
+    "remark-plugin",
+    "markdown",
+    "html",
+    "plugin",
+    "link",
+    "regex",
+    "url"
+  ],
+  "author": "Makana Grey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Makana-Grey/remark-linkify-modifier/issues"
+  },
+  "homepage": "https://github.com/Makana-Grey/remark-linkify-modifier#readme",
+  "dependencies": {
+    "unicode-word-regex": "^1.0.1",
+    "unist-util-flatmap": "1.0.x",
+    "unist-util-visit-parents": "2.0.x"
+  }
+}
